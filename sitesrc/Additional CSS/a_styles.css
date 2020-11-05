@@ -1,3 +1,30 @@
+/*collection.html*/
+.btn-dark, .dropdown-toggle{
+  background-color: #262626;
+  align:center;
+  padding: 0;
+}
+
+.btn-group{
+  margin-top: 100px;
+  margin-left:15%;
+}
+select option.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+select option:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.card-title{
+  margin:auto auto;
+  padding: 20px 0;
+}
+
+/*dashboard.html*/
 .table-dark, .table-hover, .table{
   text-align:center;
   margin:auto auto;
@@ -17,9 +44,11 @@
   margin:auto auto;
   border-radius: 0.5em;
 }
- .card-title{
+
+.card-title, .card-body, thead, tbody{
    color: white;
  }
+
 
 .o-name{
   padding-left: 10px;
