@@ -24,6 +24,13 @@ select option:hover:not(.active) {
   padding: 20px 0;
 }
 
+.total-amount{
+  float: right;
+}
+.table{
+  border-radius: 0.5em;
+}
+
 /*dashboard.html*/
 .table-dark, .table-hover, .table{
   text-align:center;
