@@ -1,0 +1,100 @@
+/*collection.html*/
+.btn-dark, .dropdown-toggle{
+  background-color: #262626;
+  align:center;
+  padding: 0;
+}
+
+.btn-group{
+  margin-top: 100px;
+  margin-left:15%;
+}
+select option.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+select option:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.card-title{
+  margin:auto auto;
+  padding: 20px 0;
+}
+
+.total-amount{
+  float: right;
+}
+.table{
+  border-radius: 0.5em;
+}
+
+/*dashboard.html*/
+.table-dark, .table-hover, .table{
+  text-align:center;
+  margin:auto auto;
+  width: 80%;
+  background-color: #262626;
+  border-radius: 0.5em;
+  color: #8c8c8c;
+}
+
+
+#accordion, .card, .card-header, .card-title, .card-body, .card-content, .collapse-title, .collapse-header{
+  background-color: #262626;
+}
+
+#accordion{
+  width: 80%;
+  margin:auto auto;
+  border-radius: 0.5em;
+}
+
+.card-title, .card-body, thead, tbody{
+   color: white;
+ }
+
+
+.o-name{
+  padding-left: 10px;
+  text-align: right;
+  border: none;
+  border-radius: none;
+  outline: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #10163A;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 17px;
+}
+
+li a {
+  text-align:left;
+  color: white;
+  display: block;
+  padding: 8px 26px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
