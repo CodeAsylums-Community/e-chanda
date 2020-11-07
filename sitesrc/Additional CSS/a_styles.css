@@ -32,6 +32,13 @@ select option:hover:not(.active) {
 }
 
 /*dashboard.html*/
+.navbar{
+  background-color: #262626;
+}
+.logout{
+  margin-left: 1030px;
+  color: white;
+}
 .table-dark, .table-hover, .table{
   text-align:center;
   margin:auto auto;
@@ -47,7 +54,7 @@ select option:hover:not(.active) {
 }
 
 #accordion{
-  width: 80%;
+  width: 76%;
   margin:auto auto;
   border-radius: 0.5em;
 }
